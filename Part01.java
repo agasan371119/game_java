@@ -1,5 +1,8 @@
 public class Part01 {
   public static void main (String[] args) {
+
+    putJyosyou();
+
     int lv = 29;
 
 
