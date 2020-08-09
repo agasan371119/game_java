@@ -3,8 +3,7 @@ public class Part01 {
 
     putJyosyou();
 
-    int lv = 29;
-
+    int lv = (int)(Math.random()) * 1 + 100;
 
     if(lv > 50) {
       System.out.println("レベル" + lv + "なので倒せました！！！");
@@ -20,6 +19,6 @@ public class Part01 {
     String name = "王子";
 
     System.out.println("魔王が" + "世界を滅ぼそうとしています！");
-    System.out.println(name + "はレベル" + 30 + "の勇者を召喚した");
+    System.out.println(name + "はレベル" + 300 + "の勇者を召喚した");
   }
 }
