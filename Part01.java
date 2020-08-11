@@ -5,10 +5,11 @@ public class Part01 {
 
   static void putJyosyou() {
     String[] team = {"王様", "召喚士", "勇者"};
+    String[] enemy = {"ドラゴン", "魔王", "竜王"};
 
-    int lv = (int)(Math.random() * 100 + 1);
+    int lv = (int)(Math.random() * 50 + 1);
 
-    System.out.println("魔王が" + "世界を滅ぼそうとしています！");
+    System.out.println(enemy[1] + "世界を滅ぼそうとしています！");
 
     System.out.println(team[0] + "は、世界を救うため" + team[1] + "に命令を下した！！");
     System.out.println(team[1] + "はレベル" + lv + "の" + team[2] + "を召喚した");
