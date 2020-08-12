@@ -6,21 +6,27 @@ public class Part01 {
   static int lv = (int)(Math.random() * 50 + 1);
 
   public static void main (String[] args) {
+    prologue();
     summon();
+    attack();
+  }
+
+  static void prologue() {
+    System.out.println(enemy[1] + "世界を滅ぼそうとしています！");
   }
 
   static void summon() {
-
-    System.out.println(enemy[1] + "世界を滅ぼそうとしています！");
-
     System.out.println(team[0] + "は、世界を救うため" + team[1] + "に命令を下した！！");
     System.out.println(team[1] + "はレベル" + lv + "の" + team[2] + "を召喚した");
 
-    System.out.println("魔王が現れた！！" + team[2] + "は、聖剣エクスカリバーを構えた！！！！");
+  }
+
+  static void attack() {
+    System.out.println(enemy[1] +  "が現れた！！" + team[2] + "は、聖剣エクスカリバーを構えた！！！！");
 
     if(lv > 50) {
       System.out.println("レベル" + lv + "なので余裕で倒せました！！！");
-      System.out.println("GAME CLAER!");
+      System.out.println("HAPPY END!");
 
     } else if(lv == 25){
       System.out.println("レベル" + lv + "なので苦戦しましたが、なんとか倒せました！！！");
@@ -30,5 +36,6 @@ public class Part01 {
       System.out.println("レベル" + lv + "なので負けました(ぴえん)");
       System.out.println("BAD END");
     }
+
   }
 }
