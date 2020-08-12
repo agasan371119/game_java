@@ -1,13 +1,15 @@
 public class Part01 {
+
+  static String[] team = {"王様", "召喚士", "勇者"};
+  static String[] enemy = {"ドラゴン", "魔王", "竜王"};
+
+  static int lv = (int)(Math.random() * 50 + 1);
+
   public static void main (String[] args) {
-    putJyosyou();
+    summon();
   }
 
-  static void putJyosyou() {
-    String[] team = {"王様", "召喚士", "勇者"};
-    String[] enemy = {"ドラゴン", "魔王", "竜王"};
-
-    int lv = (int)(Math.random() * 50 + 1);
+  static void summon() {
 
     System.out.println(enemy[1] + "世界を滅ぼそうとしています！");
 
