@@ -1,5 +1,6 @@
 public class Part01 {
 
+
   static String[] team = {"王様", "召喚士", "勇者"};
   static String[] enemy = {"ドラゴン", "魔王", "竜王"};
   static String[] magic = {"ファイヤ", "サンダー", "ブリザード"};
@@ -15,6 +16,8 @@ public class Part01 {
 
   static void prologue() {
     System.out.println(enemy[1] + "世界を滅ぼそうとしています！");
+    System.out.println(enemy[1] + "は、姫をさらって行った");
+    System.out.println(team[0] + "は、頭を抱えている");
   }
 
   static void summon() {
@@ -28,6 +31,7 @@ public class Part01 {
 
     if(lv > 50) {
       System.out.println("レベル" + lv + "なので余裕で倒せました！！！");
+      System.out.println(team[2] + "は、姫を救い結婚した！");
       System.out.println("HAPPY END!");
 
     } else if(lv == 25){
