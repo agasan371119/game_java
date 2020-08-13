@@ -17,7 +17,7 @@ public class Part01 {
   static void prologue() {
     System.out.println(enemy[1] + "世界を滅ぼそうとしています！");
     System.out.println(enemy[1] + "は、姫をさらって行った");
-    System.out.println(team[0] + "は、頭を抱えている");
+    System.out.println("姫を攫われて" + team[0] + "は、頭を抱えている");
   }
 
   static void summon() {
@@ -30,7 +30,7 @@ public class Part01 {
     System.out.println(enemy[1] +  "が現れた！！" + team[2] + "は、" + magic[0] + "を唱えた！！！！");
 
     if(lv > 50) {
-      System.out.println("レベル" + lv + "なので余裕で倒せました！！！");
+      System.out.println("レベル" + lv + "なので余裕でした！！！");
       System.out.println(team[2] + "は、姫を救い結婚した！");
       System.out.println("HAPPY END!");
 
