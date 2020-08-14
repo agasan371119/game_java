@@ -4,6 +4,8 @@ public class Part01 {
   static String[] team = {"王様", "召喚士", "勇者"};
   static String[] enemy = {"ドラゴン", "魔王", "竜王"};
   static String[] magic = {"ファイヤ", "サンダー", "ブリザード"};
+  static String[] end = {"HAPPY END", "TRUE END", "BAD END"};
+
 
   static int lv = (int)(Math.random() * 100 + 1);
   static int hit =  (int)(Math.random() * 1000 + 1);
@@ -32,15 +34,15 @@ public class Part01 {
     if(lv > 50) {
       System.out.println("レベル" + lv + "なので余裕でした！！！");
       System.out.println(team[2] + "は、姫を救い結婚した！");
-      System.out.println("HAPPY END!");
+      System.out.println(end[0]);
 
     } else if(lv == 25){
       System.out.println("レベル" + lv + "なので苦戦しましたが、なんとか倒せました！！！");
-      System.out.println("TRUE END!");
+      System.out.println(end[1]);
 
     } else {
       System.out.println("レベル" + lv + "なので負けました(ぴえん)");
-      System.out.println("BAD END");
+      System.out.println(end[2]);
     }
 
   }
