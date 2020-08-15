@@ -32,7 +32,7 @@ public class Part01 {
     System.out.println(enemy[1] +  "が現れた！！" + team[2] + "は、" + magic[0] + "を唱えた！！！！");
 
     if(lv > 50) {
-      System.out.println("レベル" + lv + "なので一瞬で抹殺した！！！");
+      System.out.println("レベル" + lv + "なので一瞬で倒しました！！！");
       System.out.println(team[2] + "は、姫を救うように見せかけ、裏で" + team[0] + "を暗殺して王国を裏で操った！");
       System.out.println(end[0]);
 
