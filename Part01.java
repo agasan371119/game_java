@@ -17,8 +17,8 @@ public class Part01 {
   }
 
   static void prologue() {
-    System.out.println(enemy[1] + "世界を滅ぼそうとしています！");
-    System.out.println(enemy[1] + "は、姫をさらって行った");
+    System.out.println(enemy[1] + "は、世界を滅ぼそうとしています！");
+    System.out.println(enemy[1] + "の配下は、姫をさらって行った");
     System.out.println("姫を攫われて" + team[0] + "は、頭を抱えている");
   }
 
@@ -38,7 +38,7 @@ public class Part01 {
 
     } else if(lv == 25){
       System.out.println("レベル" + lv + "なので苦戦しましたが、なんとか倒せました！！！");
-      System.out.println(team[0] + "に、用済みと宣告を受け強制的に元の世界に帰されました");
+      System.out.println(team[0] + "に、用済みと宣告を受け強制的に元の世界に送還されました");
       System.out.println(end[1]);
 
     } else {
