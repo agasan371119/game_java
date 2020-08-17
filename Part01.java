@@ -1,14 +1,14 @@
 public class Part01 {
 
-
   static String[] team = {"王様", "召喚士", "勇者"};
   static String[] enemy = {"ドラゴン", "魔王", "竜王"};
   static String[] magic = {"ファイヤ", "サンダー", "ブリザード"};
   static String[] end = {"HAPPY END？", "TRUE END", "BAD END"};
 
-
   static int lv = (int)(Math.random() * 100 + 1);
   static int hit =  (int)(Math.random() * 1000 + 1);
+  static int en = (int)(Math.random() * 3 + 0);
+  static int mg = (int)(Math.random() * 3 + 0);
 
   public static void main (String[] args) {
     prologue();
@@ -29,7 +29,7 @@ public class Part01 {
   }
 
   static void attack() {
-    System.out.println(enemy[1] +  "が現れた！！" + team[2] + "は、" + magic[2] + "を唱えた！！！！");
+    System.out.println(enemy[en] +  "が現れた！！" + team[2] + "は、" + magic[mg] + "を唱えた！！！！");
 
     if(lv > 50) {
       System.out.println("レベル" + lv + "なので一瞬で倒しました！！！");
