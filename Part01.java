@@ -29,7 +29,7 @@ public class Part01 {
   }
 
   static void attack() {
-    System.out.println(enemy[1] +  "が現れた！！" + team[2] + "は、" + magic[0] + "を唱えた！！！！");
+    System.out.println(enemy[1] +  "が現れた！！" + team[2] + "は、" + magic[2] + "を唱えた！！！！");
 
     if(lv > 50) {
       System.out.println("レベル" + lv + "なので一瞬で倒しました！！！");
