@@ -3,7 +3,7 @@ public class Part01 {
   static String[] team = {"王様", "召喚士", "勇者"};
   static String[] enemy = {"ドラゴン", "魔王", "竜王"};
   static String[] magic = {"ファイヤ", "サンダー", "ブリザード"};
-  static String[] end = {"HAPPY END？", "TRUE END", "BAD END"};
+  static String[] end = {"HAPPY END", "TRUE END", "BAD END"};
 
   static int lv = (int)(Math.random() * 100 + 1);
   static int hit =  (int)(Math.random() * 1000 + 1);
@@ -30,7 +30,7 @@ public class Part01 {
 
   static void attack() {
     System.out.println(enemy[en] +  "が現れた！！" + team[2] + "は、" + magic[mg] + "を唱えた！！！！");
-
+    
     if(lv > 50) {
       System.out.println("レベル" + lv + "なので一瞬で倒しました！！！");
       System.out.println(team[2] + "は、姫を救うように見せかけ、裏で" + team[0] + "を暗殺して王国を裏で操った！");
