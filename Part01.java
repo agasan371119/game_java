@@ -1,14 +1,14 @@
 public class Part01 {
 
   static String[] team = {"王様", "召喚士", "勇者"};
-  static String[] enemy = {"ドラゴン", "魔王", "竜王"};
+  static String[] enemy = {"ドラゴン", "魔王", "竜王", "雑魚"};
   static String[] magic = {"ファイヤ", "サンダー", "ブリザード"};
   static String[] end = {"HAPPY END", "TRUE END", "BAD END"};
 
   static int lv = (int)(Math.random() * 100 + 1);
   static int hit =  (int)(Math.random() * 100 + 80);
   static int en = (int)(Math.random() * 3 + 0);
-  static int mg = (int)(Math.random() * 3 + 0);
+  static int mg = (int)(Math.random() * 2 + 0);
 
   public static void main (String[] args) {
     prologue();
