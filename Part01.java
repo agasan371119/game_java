@@ -1,6 +1,6 @@
 public class Part01 {
 
-  static String[] team = {"王様", "召喚士", "勇者"};
+  static String[] team = {"王様","召喚士", "勇者", "王子"};
   static String[] enemy = {"ドラゴン", "魔王", "竜王", "雑魚"};
   static String[] magic = {"ファイヤ", "サンダー", "ブリザード"};
   static String[] end = {"HAPPY END", "TRUE END", "BAD END"};
