@@ -42,7 +42,7 @@ public class Part01 {
       System.out.println(end[1]);
 
     } else {
-      System.out.println("レベル" + lv + "なので負けました(ぴえん)");
+      System.out.println("レベル" + lv + "なので負けました");
       System.out.println(end[2]);
     }
 
