@@ -33,7 +33,7 @@ public class Part01 {
     
     if(lv > 50) {
       System.out.println("レベル" + lv + "のため、ダメージを" + hit + "与えて一瞬で倒しました！！！");
-      System.out.println(team[2] + "は、姫を救うように見せかけ、裏で" + team[0] + "を暗殺して王国を裏で操った！");
+      System.out.println(team[en] + "は、姫を救うように見せかけ、裏で" + team[0] + "を暗殺して王国を裏で操った！");
       System.out.println(end[0]);
 
     } else if(lv == 25){
