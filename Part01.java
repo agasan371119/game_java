@@ -24,7 +24,7 @@ public class Part01 {
 
   static void summon() {
     System.out.println(team[en] + "は、世界を救うため" + team[en] + "に命令を下した！！");
-    System.out.println(team[en] + "はレベル" + lv + "の" + team[2] + "を召喚した");
+    System.out.println(team[en] + "はレベル" + lv + "の" + team[en] + "を召喚した");
 
   }
 
