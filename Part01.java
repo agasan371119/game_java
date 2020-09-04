@@ -17,9 +17,9 @@ public class Part01 {
   }
 
   static void prologue() {
-    System.out.println(enemy[en] + "は、世界を滅ぼそうとしています！");
-    System.out.println(enemy[en] + "の配下は、姫をさらって行った");
-    System.out.println("姫を攫われて" + team[en] + "は、頭を抱えている");
+    System.out.println(enemy[1] + "は、世界を滅ぼそうとしています！");
+    System.out.println(enemy[1] + "の配下は、姫をさらって行った");
+    System.out.println("姫を攫われて" + team[0] + "は、頭を抱えている");
   }
 
   static void summon() {
