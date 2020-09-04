@@ -29,7 +29,7 @@ public class Part01 {
   }
 
   static void attack() {
-    System.out.println(enemy[en] +  "が現れた！！" + team[en] + "は、" + magic[mg] + "を唱えた！！！！");
+    System.out.println(enemy[en] +  "が現れた！！" + team[2] + "は、" + magic[mg] + "を唱えた！！！！");
     
     if(lv > 50) {
       System.out.println("レベル" + lv + "のため、ダメージを" + hit + "与えて一瞬で倒しました！！！");
@@ -39,7 +39,7 @@ public class Part01 {
     } else if(lv == 25){
       System.out.println("レベル" + lv + "なので苦戦しましたが、なんとか倒せました！！！");
       System.out.println(team[en] + "に、用済みと宣告を受け強制的に元の世界に送還されました");
-      System.out.println(end[1]);
+      System.out.println(end[en]);
 
     } else {
       System.out.println("レベル" + lv + "なので負けました");
