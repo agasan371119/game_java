@@ -38,8 +38,8 @@ public class Part01 {
 
     } else if(lv == 25){
       System.out.println("レベル" + lv + "なので苦戦しましたが、なんとか倒せました！！！");
-      System.out.println(team[en] + "に、用済みと宣告を受け強制的に元の世界に送還されました");
-      System.out.println(end[en]);
+      System.out.println(team[1] + "に、用済みと宣告を受け強制的に元の世界に送還されました");
+      System.out.println(end[1]);
 
     } else {
       System.out.println("レベル" + lv + "なので負けました");
