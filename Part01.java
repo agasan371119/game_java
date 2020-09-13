@@ -28,12 +28,12 @@ public class Part01 {
     System.out.println(team[1] + "はレベル" + lv + "の" + team[2] + "を召喚した");
 
   }
-
+  //攻撃集
   static void attack() {
     System.out.println(enemy[en] +  "が現れた！！" + team[2] + "は、" + magic[mg] + "を唱えた！！！！");
     
     }
-    
+
   //エンド集
   static void end() {
     if(lv > 50) {
