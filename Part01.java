@@ -16,13 +16,13 @@ public class Part01 {
     attack();
     end();
   }
-
+  //プロローグ
   static void prologue() {
     System.out.println(enemy[1] + "は、世界を滅ぼそうとしています！");
     System.out.println(enemy[1] + "の配下は、姫をさらって行った");
     System.out.println("姫を攫われて" + team[0] + "は、頭を抱えている");
   }
-
+  //召喚
   static void summon() {
     System.out.println(team[0] + "は、世界を救うため" + team[1] + "に召喚の指示を出した！！");
     System.out.println(team[1] + "はレベル" + lv + "の" + team[2] + "を召喚した");
