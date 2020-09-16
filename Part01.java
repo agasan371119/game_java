@@ -41,7 +41,7 @@ public class Part01 {
       System.out.println(team[2] + "は、姫と結婚して、裏では" + team[0] + "を暗殺して王国を乗っ取った！");
       System.out.println(end[0]);
 
-    } else if(lv < 25 && lv > 10){
+    } else if(lv < 50 && lv > 10){
       System.out.println("レベル" + lv + "なので苦戦しましたが、なんとか倒せました！！！");
       System.out.println(team[1] + "に、用済みと暗殺されました");
       System.out.println(end[1]);
