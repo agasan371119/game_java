@@ -17,25 +17,25 @@ public class Part01 {
     end();
   }
   //プロローグ
-  static void prologue() {
+  public static void  prologue() {
     System.out.println(enemy[1] + "は、世界を滅ぼそうとしています！");
     System.out.println(enemy[1] + "の配下は、姫をさらって行った");
     System.out.println("姫を攫われて" + team[0] + "は、頭を抱えている");
   }
   //召喚
-  static void summon() {
+  public static void summon() {
     System.out.println(team[0] + "は、世界を救うため" + team[1] + "に召喚の指示を出した！！");
     System.out.println(team[1] + "はレベル" + lv + "の" + team[2] + "を召喚した");
 
   }
   //攻撃集
-  static void attack() {
+  public static void attack() {
     System.out.println(enemy[en] +  "が現れた！！" + team[2] + "は、" + magic[mg] + "を唱えた！！！！");
     
     }
 
   //エンド集
-  static void end() {
+  public static void end() {
     if(lv > 50) {
       System.out.println("レベル" + lv + "のため、ダメージを" + hit * 10000 + "与えて一瞬で倒しました！！！");
       System.out.println(team[2] + "は、姫と結婚して、裏では" + team[0] + "を暗殺して王国を乗っ取った！");
